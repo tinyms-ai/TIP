@@ -5,7 +5,7 @@
     Status: Draft
     Type: Meta
     Author: Your Name <your.email@domain.com>
-    Created: 2017-11-30
+    Created: 2019-04-20
 
 ### Abstract
 HCIP stands for Heterogeneous Computing Improvement Proposal. Each HCIP is a design document providing information to the OHCF community, or describing a new feature for Heterogeneous Computing or its processes or environment. The HCIP should provide a concise technical specification of the feature and a rationale for the feature.  The HCIP author is responsible for building consensus within the community and documenting dissenting opinions.
@@ -18,11 +18,17 @@ We intend HCIPs to be the primary mechanisms for proposing new features, for col
 There are three kinds of HCIP:
 
 * A Standard Track HCIP describes any change that affects most or all Heterogeneous Computing implementations, which can be broken down into the following categories.
+
 ** HDK
+
 ** SDK
+
 ** Cloud Management
+
 ** Bus
+
 ** OS
+
 ** Application enablement
 
 * An Informational HCIP describes an Heterogeneous Computing design issue, or provides general guidelines or information to the OHCF community, but does not propose a new feature. Informational HCIPs do not necessarily represent the OHCF community consensus or a recommendation, so users and implementors are free to ignore Informational HCIPs or follow their advice.
@@ -34,7 +40,7 @@ The HCIP repository Collaborators change the HCIPs status. Please send all HCIP-
 
 The HCIP process begins with a new idea for Heterogeneous Computing. It is highly recommended that a single HCIP contain a single key proposal or new idea. Small enhancements or patches that don't affect consensus often don't need an HCIP and can be injected into the Heterogeneous Computing development workflow with a patch submission to the corresponding Heterogeneous Computing issue tracker. The more focused the HCIP, the more successful it tends to be. The HCIP Editor reserves the right to reject HCIP proposals if they appear too unfocused or too broad. If in doubt, split your HCIP into several well-focused ones.
 
-Each HCIP must have a champion -- someone who writes the HCIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The HCIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is HCIP-able. Opening an [https://github.com/open-heterogeneous-computing-framework/HCIP/issues Issue] is the best way to go about this.
+Each HCIP must have a champion -- someone who writes the HCIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The HCIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is HCIP-able. Opening an [Issue](https://github.com/open-heterogeneous-computing-framework/HCIP/issues) is the best way to go about this.
 
 Vetting an idea publicly before going as far as writing an HCIP is meant to save the potential author time. Asking the OHCF community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where Heterogeneous Computing is used.
 
@@ -44,13 +50,13 @@ If the HCIP collaborators approves, the HCIP editor will assign the HCIP a numbe
 
 The HCIP author may update the Draft as necessary in the git repository. Updates to drafts may also be submitted by the author as pull requests.
 
-Standards Track HCIPs consist of three parts, a design document, implementation and finally if warranted an update to the [https://github.com/open-heterogeneous-computing-framework/Specs formal specification]. The HCIP should be reviewed and accepted before an implementation is begun, unless an implementation will aid people in studying the HCIP. Standards Track HCIPs must be implemented in at least two viable Heterogeneous Computing clients before it can be considered Final.
+Standards Track HCIPs consist of three parts, a design document, implementation and finally if warranted an update to the [formal specification](https://github.com/open-heterogeneous-computing-framework/Specs). The HCIP should be reviewed and accepted before an implementation is begun, unless an implementation will aid people in studying the HCIP. Standards Track HCIPs must be implemented in at least two viable Heterogeneous Computing clients before it can be considered Final.
 
 HCIP authors are responsible for collecting community feedback on an HCIP before submitting it for review. However, wherever possible, long open-ended discussions should be avoided. Strategies to keep the discussions efficient include: having the HCIP author accept private comments in the early design phases, setting up a wiki page or git repository, etc. HCIP authors should use their discretion here.
 
 For an HCIP to be accepted it must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement. The proposed implementation, if applicable, must be solid and must not complicate the protocol unduly.
 
-Once an HCIP has been accepted, the implementations must be completed. When the implementation is complete in at least two viable clients and accepted by the community, the status will be changed to "Final". An update to the [https://github.com/open-heterogeneous-computing-framework/Specs formal specification] should accompany the "Final" status change.
+Once an HCIP has been accepted, the implementations must be completed. When the implementation is complete in at least two viable clients and accepted by the community, the status will be changed to "Final". An update to the [formal specification](https://github.com/open-heterogeneous-computing-framework/Specs) should accompany the "Final" status change.
 
 An HCIP can also be assigned status "Deferred". The HCIP author or editor can assign the HCIP this status when no progress is being made on the HCIP. Once an HCIP is deferred, the HCIP editor can re-assign it to draft status.
 
