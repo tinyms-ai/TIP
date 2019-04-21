@@ -19,17 +19,17 @@ There are three kinds of HCIP:
 
 * A Standard Track HCIP describes any change that affects most or all Heterogeneous Computing implementations, which can be broken down into the following categories.
 
-** HDK
+**HDK
 
-** SDK
+**SDK
 
-** Cloud Management
+**Cloud Management
 
-** Bus
+**Bus
 
-** OS
+**OS
 
-** Application enablement
+**Application enablement
 
 * An Informational HCIP describes an Heterogeneous Computing design issue, or provides general guidelines or information to the OHCF community, but does not propose a new feature. Informational HCIPs do not necessarily represent the OHCF community consensus or a recommendation, so users and implementors are free to ignore Informational HCIPs or follow their advice.
 
