@@ -26,7 +26,7 @@ There are three kinds of TIP:
 **Rusted AI
 
 
-* An Informational TIP describes an TinyMS ecosystem design issue, or provides general guidelines or information to the OHCF community, but does not propose a new feature. Informational TIPs do not necessarily represent the OHCF community consensus or a recommendation, so users and implementors are free to ignore Informational TIPs or follow their advice.
+* An Informational TIP describes an TinyMS ecosystem design issue, or provides general guidelines or information to the TinyMS community, but does not propose a new feature. Informational TIPs do not necessarily represent the TinyMS community consensus or a recommendation, so users and implementors are free to ignore Informational TIPs or follow their advice.
 
 * A Meta TIP describes a process surrounding TinyMS ecosystem or proposes a change to (or an event in) a process. Meta TIPs are like Standard Track TIPs but apply to areas other than the TinyMS ecosystem related development itself. They may propose an implementation, but not to TinyMS ecosystem's codebase; they often require community consensus; unlike Informational TIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in TinyMS ecosystem development.
 
@@ -37,9 +37,9 @@ The TIP process begins with a new idea for TinyMS ecosystem. It is highly recomm
 
 Each TIP must have a champion -- someone who writes the TIP using the style and format described below, shepherds the discussions in the appropriate forums, and attempts to build community consensus around the idea. The TIP champion (a.k.a. Author) should first attempt to ascertain whether the idea is TIP-able. Opening an [Issue](https://github.com/tinyms-ai/TIP/issues) is the best way to go about this.
 
-Vetting an idea publicly before going as far as writing an TIP is meant to save the potential author time. Asking the OHCF community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where TinyMS ecosystem is used.
+Vetting an idea publicly before going as far as writing an TIP is meant to save the potential author time. Asking the TinyMS community first if an idea is original helps prevent too much time being spent on something that is guaranteed to be rejected based on prior discussions (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will work for most people in most areas where TinyMS ecosystem is used.
 
-Once the champion has asked the OHCF community as to whether an idea has any chance of acceptance, a draft TIP should be presented as a Pull Request. This gives the author a chance to flesh out the draft TIP; to make properly formatted, of high quality, and to address initial concerns about the proposal.
+Once the champion has asked the TinyMS community as to whether an idea has any chance of acceptance, a draft TIP should be presented as a Pull Request. This gives the author a chance to flesh out the draft TIP; to make properly formatted, of high quality, and to address initial concerns about the proposal.
 
 If the TIP collaborators approves, the TIP editor will assign the TIP a number, label it as Standards Track, Informational, or Process, give it status "Draft", and add it to the git repository. The TIP editor will not unreasonably deny an TIP. Reasons for denying TIP status include duplication of effort, being technically unsound, not providing proper motivation or addressing backwards compatibility, or not in keeping with the TinyMS ecosystem philosophy.
 
@@ -136,7 +136,7 @@ If you are interested in assuming ownership of a TIP, send a message asking to t
 
 #### TIP Editors
 The current TIP editors are
-  * All champions identified in the OHCF github organization
+  * All champions identified in the TinyMS github organization
 
 #### TIP Editor Responsibilities & Workflow
 For each new TIP that comes in, an editor does the following:
@@ -170,4 +170,4 @@ TIPs are intended to replace the venerable etherpads which described the initial
 Fork the [TIP repo](https://github.com/tinyms-ai/TIP). Write an TIP using the [TIP markdown template](https://github.com/tinyms-ai/TIP/blob/master/TIP-number.template.md) and initiate a pull request.
 
 ### History
-This document, recently edited for the specific use of OHCF community, was derived heavily from [https://github.com/bitcoin/bips Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [https://www.python.org/dev/peps/ Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the TinyMS ecosystem Improvement Process, and should not be bothered with technical questions specific to, TinyMS ecosystem, or the TIP. Please direct all comments to the TIP editors.
+This document, recently edited for the specific use of TinyMS community, was derived heavily from [https://github.com/bitcoin/bips Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [https://www.python.org/dev/peps/ Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use in the TinyMS ecosystem Improvement Process, and should not be bothered with technical questions specific to, TinyMS ecosystem, or the TIP. Please direct all comments to the TIP editors.
